@@ -7,6 +7,12 @@ Tested in:
 - CentOS 7.2
 - CentOS 7.3
 
+## Install chef
+
+You need to install chef to run this recipe. Login as ROOT user
+
+	$ curl -L https://www.opscode.com/chef/install.sh | bash
+
 ## How to deploy the CHEF recipe
 
 Firstly move to **/var** directory and clone the chef project
