@@ -2,16 +2,18 @@
 
 This recipe will install and configure **OSSEC** (Local mode) and **Postfix** (smarthost).
 
-Tested in:
+Tested with [kitchen.ci](http://kitchen.ci):
 
 - CentOS 7.2
 - CentOS 7.3
 
 ## Install chef
 
-You need to install chef to run this recipe. Login as ROOT user
+You need to install chef to run this recipe.
 
 	$ curl -L https://www.opscode.com/chef/install.sh | bash
+
+> Login as __root__ user
 
 ## How to deploy the CHEF recipe
 
