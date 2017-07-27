@@ -1,6 +1,7 @@
 # ossec_agentless
 
-This recipe will install and configure **OSSEC** (Local mode) and **Postfix** (smarthost).
+This recipe will install and configure **OSSEC** (Local mode) and **Postfix** as 
+smarthost to send you emails.
 
 Tested with [kitchen.ci](http://kitchen.ci):
 
@@ -19,8 +20,9 @@ You need to install chef to run this recipe.
 
 Firstly move to **/var** directory and clone the chef project
 
-	$ cd /var/
-	$ git clone git@github.com:Chucheen/chef_homie.git chef
+	$ mkdir -p /var/chef/cookbooks
+	$ cd /var/chef/cookbooks
+	$ git clone https://github.com/jahrmando/ossec_agentless.git
 
 > You will should have root privilage to clone in **/var** directory
 
